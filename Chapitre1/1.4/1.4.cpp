@@ -1,9 +1,14 @@
+// Exercise 1.4: Our program used the addition operator, +, to add two
+// numbers. Write a program that uses the multiplication operator, *, to
+// print the product instead.
+
 #include <iostream>
 
-int main(){
-	int n1 = 0, n2 = 0;
+int main()
+{
 	std::cout << "Entrez 2 nombres: " << std::endl;
-	std::cin >> n1 >> n2;
-	std::cout << "Le produit de " << n1 << " par " << n2 << " fait " << n1 * n2 << std::endl; 
+	int nombre1 = 0, nombre2 = 0;
+	std::cin >> nombre1 >> nombre2;
+	std::cout << "Le produit de " << nombre1 << " par " << nombre2 << " fait " << nombre1 * nombre2 << std::endl; 
 	return 0;
 }
