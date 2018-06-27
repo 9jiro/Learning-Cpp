@@ -9,12 +9,12 @@ int main()
 	Sales_item livre1, livre2;
 	std::cin >> livre1 >> livre2;
 	
-	if (livre1 == livre2)
+	if (livre1.isbn() == livre2.isbn())
 	{
 		std::cout << livre1 + livre2 << std::endl;
 	}
 	else
-		std::cout << livre1 << livre2 << std::endl;
+		std::cout << "Ce ne sont pas les même livres." << std::endl;
 
 	return 0;
 }
