@@ -10,11 +10,10 @@ int main()
 	if (std::cin >> valeurActuelle)
 	{
 		int compteur = 1;
-		while(std::cin >> valeur)
-		{
+		while(std::cin >> valeur){
 			if(valeur == valeurActuelle)
 			{
-				compteur++;
+				++compteur;
 			}
 			else{
 				std::cout << valeurActuelle << " apparaît " << compteur << " fois." << std::endl;

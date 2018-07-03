@@ -15,15 +15,15 @@ int main()
 	if (valeur1 <= valeur2)
 	{
 		while(valeur1 <= valeur2){
-		std::cout << valeur1 << std::endl;
-		valeur1++;
-	}
+			std::cout << valeur1 << std::endl;
+			++valeur1;
+		}
 	}
 	else{
 		while(valeur1 >= valeur2){
-		std::cout << valeur1 << std::endl;
-		valeur1--;
-	}
+			std::cout << valeur1 << std::endl;
+			--valeur1;
+		}
 	}		
 	return 0;
 }

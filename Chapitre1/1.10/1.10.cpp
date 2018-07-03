@@ -6,10 +6,10 @@
 
 int main()
 {
-	int valeur=10;
-	while(valeur>=0){
+	int valeur = 10;
+	while(valeur >= 0){
 		std::cout << valeur << std::endl;
-		valeur--;
+		--valeur;
 	}
 	return 0;
 }

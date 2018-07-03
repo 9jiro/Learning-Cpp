@@ -3,8 +3,6 @@
 
 for loop
 variable définie dans la boucle utilisable uniquement dans celle-ci.
-Mieux quand on sait combien de fois la boucle tournera.
 
-while loop
-Mieux quand on ne sait pas combien de fois la boucle sera répétée.
-
+while
+variable à déclarer avant utilisation de la boucle.

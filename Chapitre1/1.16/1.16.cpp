@@ -7,8 +7,7 @@ int main()
 {
 	std::cout << "Entrez les nombres que vous souhaitez additionner: " << std::endl;
 	int somme = 0, valeur = 0;
-	while(std::cin >> valeur)
-	{
+	while(std::cin >> valeur){
 		somme += valeur;
 	}
 	std::cout << "La somme des valeurs données fait " << somme;

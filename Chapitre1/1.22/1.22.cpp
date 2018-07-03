@@ -6,22 +6,22 @@
 
 int main()
 {
-	Sales_item livre, vente;
-	if (std::cin >> livre)
+	Sales_item livre1, livre2;
+	if (std::cin >> livre1)
 	{
-		while(std::cin >> vente)
-		{
-			if (livre.isbn() == vente.isbn())
-				{
-					livre += vente;
-				}
+		while(std::cin >> livre2){
+			if (livre1.isbn() == livre2.isbn())
+			{
+				livre1 += livre2; 
+			}
 			else{
-					std::cout << livre << std::endl;
-					livre = vente;
-				}	
-			
+				std::cout << livre1 << std::endl;
+				livre1 = livre2;
+			}
 		}
-		std::cout << livre << std::endl;
+		std::cout << livre1 << std::endl;
 	}
+	
 	return 0;
 }
+

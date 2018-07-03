@@ -8,19 +8,19 @@ int main()
 // Exercise 1.9: Write a program that uses a while to sum the numbers from
 // 50 to 100.
 
-// Refait en utilisant for loops.
-	int valeur1=0;
-	for (int i = 50; i <= 100; ++i)
+// Refait avec for loop.
+	int somme = 0;
+	for (int valeur = 50; valeur <= 100; ++valeur)
 	{
-		valeur1+=i;
+		somme += valeur;
 	}
-	std::cout << valeur1 << std::endl;
+	std::cout << somme << std::endl;
 
 // Exercise 1.10: In addition to the ++ operator that adds 1 to its operand,
 // there is a decrement operator (--) that subtracts 1. Use the decrement
 // operator to write a while that prints the numbers from ten down to zero.
 
-// Refait en utilisant for loops.
+// Refait avec for loop.
 	for (int i = 10; i >= 0; --i)
 	{
 		std::cout << i << std::endl;
